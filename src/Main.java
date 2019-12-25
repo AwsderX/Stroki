@@ -2,20 +2,20 @@ import java.util.Scanner;
 import java.lang.String;
 
 public class Main {
-    public String str = new String();
-    public static void main(String[] args) {
-        Scanner in=new Scanner(System.in);
-        System.out.println("введите строку");
-        String str = in.nextLine();
-        String[] words = str.split(" ");
-        int count = 0;
-        int k = 0;
-        int k1 = 0;
-        int n = 0;
-        int h = 0;
-        int max = 0;
-        String str1 = " ";
-        int p = 0;
+            public String str = new String();
+            public static void main(String[] args) {
+                Scanner in=new Scanner(System.in);
+                System.out.println("введите строку");
+                String str = in.nextLine();
+                String[] words = str.split(" ");
+                int count = 0;
+                int k = 0;
+                int k1 = 0;
+                int n = 0;
+                int h = 0;
+                int max = 0;
+                String str1 = " ";
+                int p = 0;
 
         int zachem = 0;
 
